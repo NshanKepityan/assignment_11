@@ -1,0 +1,5 @@
+name:persons
+query:select FirstName,LastName from Person.Person where PersonType = @param1;
+
+name:products
+query:select ProductID,Name,Color from Production.Product where ListPrice > @amount;
